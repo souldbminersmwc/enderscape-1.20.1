@@ -5,7 +5,8 @@
     "name": "Enderscape",
     "description": "A mod focused on improving The End with new biomes, mobs, and other features.",
     "authors": [
-        "bunten (Primary developer)"
+        "bunten (Primary developer)",
+        "Souldbminer (1.20 Port)
     ],
     "contributors": [
         "Aigis (Logo art)",
@@ -26,7 +27,7 @@
             }
         }
     },
-    "license": "MIT",
+    "license": "GNU Affero General Public License Version 3.0",
     "icon": "assets/enderscape/icon.png",
     "environment": "*",
     "entrypoints": {
@@ -45,7 +46,7 @@
         "enderscape.client.mixins.json"
     ],
     "depends": {
-        "minecraft": "~1.19",
+        "minecraft": "~1.20",
         "fabricloader": ">=0.14.9",
         "fabric": ">=0.60.0",
         "bclib": ">=2.1.0"
