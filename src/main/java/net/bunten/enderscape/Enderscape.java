@@ -27,8 +27,9 @@ public class Enderscape implements ModInitializer {
     public static final String MOD_ID = "enderscape";
     public static final Logger LOGGER = LogManager.getLogger();
     public static final boolean IS_DEBUG = FabricLoader.getInstance().isDevelopmentEnvironment();
-    public static final CreativeModeTab TAB = FabricItemGroupBuilder.build(Enderscape.id("all"), () -> new ItemStack(EnderscapeItems.NEBULITE));
-
+    public static final ItemGroup TAB = FabricItemGroup.builder(Enderscape.id("all"))
+        .icon(() -> new ItemStack(EnderscapeItems.NEBULITE))
+        .build();
     public static ResourceLocation id(String path) {
         return new ResourceLocation(MOD_ID, path);
     }
