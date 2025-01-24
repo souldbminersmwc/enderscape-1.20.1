@@ -40,10 +40,6 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
     modImplementation "org.betterx:bclib:${project.bclib_version}"
 	include modImplementation("com.github.Chocohead:Fabric-ASM:${project.fabric_asm_version}")
-
-	modRuntimeOnly "maven.modrinth:lazydfu:${project.lazydfu_version}"
-	modRuntimeOnly "maven.modrinth:fastload:${project.fastload_version}"
-	modRuntimeOnly "maven.modrinth:modmenu:${project.modmenu_version}"
 	// modRuntimeOnly "maven.modrinth:presence-footsteps:1.6.1"
 	// modRuntimeOnly "com.minelittlepony:kirin:1.11.0"
 }
