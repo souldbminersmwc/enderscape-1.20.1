@@ -29,7 +29,7 @@ repositories {
             includeGroup "maven.modrinth"
         }
     }
-	maven { url 'https://maven.ambertation.de/releases' }
+	maven { url 'https://jitpack.io' }
 }
 
 dependencies {
